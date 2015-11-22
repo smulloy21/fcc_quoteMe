@@ -8,7 +8,7 @@
 
 The second project for Free Code Camp - click the button to see one of several stock quotes.
 
-Link: smulloy21.github.io/fcc_quoteMe/
+Link: http://smulloy21.github.io/quoteMe/
 
 ## Setup
 
