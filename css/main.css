@@ -1,3 +1,51 @@
-#newQuote {
-  display: none;
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  font-family: 'Lora', serif;
+  min-height:100vh;
+  background: url('http://cdn01.wallconvert.com/_media/wallpapers_1280x800/1/1/mechanical-system-4453.jpg') center center no-repeat;
+  background-size: cover;
+  letter-spacing: 1px;
+  color: #111111;
+  /*text-shadow: .5px .5px .5px black,
+              -.5px -.5px .5px black;*/
+
+}
+.title {
+  text-align: center;
+}
+#quote {
+  width: 70%;
+  height: 120px;
+  margin: 0 auto;
+  text-align: justify;
+  text-justify: inter-word;
+}
+#quoteAuthor {
+  text-align: right;
+}
+#quoteMe {
+  text-align: center;
+}
+.btn-primary, .btn-primary:active, .btn-primary:visited, .btn-primary:focus, .btn-primary:active:focus {
+  background-color: #3B3B3B;
+  outline: #111111;
+  border:2px solid #111111;
+}
+.btn-primary:hover {
+  background-color: #111111;
+}
+@media screen and (max-width: 700px) {
+  #quote {
+    width: 90%;
+    height: 140px;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 500px) {
+  #quote {
+    height: 190px;
+  }
 }
