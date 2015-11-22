@@ -56,4 +56,14 @@ $(document).ready(function(){
     $('#quoteText').text(quote.quote);
     $('#quoteAuthor').text(quote.author);
   });
+  $('#addQuote').submit(function(event){
+    event.preventDefault();
+    $('form#newQuote').show();
+    $(this).hide();
+  });
+  $('form#newQuote').submit(function(event){
+    event.preventDefault();
+    $('#addQuote').show();
+    $(this).hide();
+  });
 });
